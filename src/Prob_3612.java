@@ -1,5 +1,15 @@
 public class Prob_3612 {
 
+    // Approach:
+    // 1. Initialize a StringBuilder to build the result string.
+    // 2. Iterate through each character in the input string s.
+    // 3. For each character, check if it is a special character ('*', '#', or '%').
+    // 4. If the character is '*', remove the last character from the result if the result is not empty.
+    // 5. If the character is '#', duplicate the current result and append it to itself. 
+    // 6. If the character is '%', reverse the current result.
+    // 7. If the character is not a special character, append it to the result.
+    // 8. After processing all characters, return the final result as a string.
+
     public static String processStr(String s){
 
         if(s.length() == 0 || s == null){
