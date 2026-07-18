@@ -10,7 +10,7 @@ public class Prob_1979 {
     // Time Complexity: O(n) for finding min and max, O(log(min, max)) for GCD calculation
     // Space Complexity: O(1) as we are using a constant amount of space
 
-    // explaination of the approach to find GCD:
+    // explanation of the approach to find GCD:
     // The GCD (Greatest Common Divisor) of two numbers is the largest positive integer that divides both numbers without leaving a remainder.
     // The Euclidean algorithm is an efficient method for computing the GCD of two numbers.
     // The algorithm is based on the principle that the GCD of two numbers also divides their difference.
